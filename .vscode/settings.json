@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"C:/Users/Daniel/Documents/C++/ToonTanks/.vscode": true,
+		"C:/Users/Daniel/Documents/C++/ToonTanks/Content": true,
+		"C:/Users/Daniel/Documents/C++/ToonTanks/DerivedDataCache": true,
+		"C:/Users/Daniel/Documents/C++/ToonTanks/Intermediate": true,
+		"C:/Users/Daniel/Documents/C++/ToonTanks/Saved": true
+	}
+}
