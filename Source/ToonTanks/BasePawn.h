@@ -54,6 +54,9 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Private Int", meta = (AllowPrivateAccess = "true"))
 	int32 EditAnywhereInt = 22;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Combat")
+	TSubclassOf<class AProjectile> ProjectileClass;
+
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
