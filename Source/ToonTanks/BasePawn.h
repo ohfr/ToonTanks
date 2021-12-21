@@ -57,7 +57,20 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
 	TSubclassOf<class AProjectile> ProjectileClass;
 
+	UPROPERTY(EditAnywhere, Category = "Combat")
+		class USoundBase* DeathSound;
+	
+	UPROPERTY(EditAnywhere, Category = "Combat")
+		TSubclassOf<class UCameraShake> DeathCameraShakeClass;
+
+
+
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	void HandleDestruction();
+
+	UPROPERTY(EditDefaultsOnly, Category = "Combat")
+		class UParticleSystem* DeathEffect;
 };
